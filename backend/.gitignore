@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Pytest cache
+.pytest_cache/
+
+#postman reccurrent files
+.postman
+
+# Alembic (migration) - uniquement le cache de migration
+# Les fichiers de migration réels doivent rester dans le repo
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db

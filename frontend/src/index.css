@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.content {
+  max-width: 75%;
+  margin: 40px auto;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Navbar styles */
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 1.2em;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+
+.login {
+  background-color: #f1356d;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.login:hover {
+  border-color: #f1356d;
+  background-color: white;
+}
+
+/* Button styles */
+button {
+  background-color: #f1356d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-top: 7%;
+  margin-bottom: 1%;
+  font-size: 1.2em;
+}
+
+button:hover {
+  background-color: white;
+  color: #f1356d;
+  border: 1px solid #f1356d;
+}
+
+/*Input styles */
+input[type="number"] {
+  width: 60px;
+  padding: 8px;
+  padding-right: 0px;
+  margin-top: 25px;
+  box-sizing: border-box;
+  font-size: 1.2em;
+  margin-left: 35%;
+}
+
+/* Connection styles */
+ .loginPage {
+  text-align: center;
+  font-size: 1.2em;
+  display: block;
+  margin: 0 auto;
+ }
+
+button.loginPage {
+  margin-top: 3%;
+}
+
+h1.loginPage {
+  margin-top: 5%;
+}
+
+.registerPage {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+
+/*Table styles */
+table {
+  width: 100%;
+  margin-top: 40px;
+  border-collapse: collapse;
+  table-layout: fixed;
+
+  background-color: white;
+
+  border-radius: 12px;
+  overflow: hidden;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+
+  font-size: 1em;
+}
+
+/* HEADER */
+
+thead {
+  background-color: #f1356d;
+}
+
+th {
+  padding: 16px;
+
+  color: white;
+
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  width: 20%;
+}
+
+/* CELLULES */
+
+td {
+  padding: 14px 16px;
+
+  text-align: center;
+
+  border-bottom: 1px solid #f2f2f2;
+
+  word-wrap: break-word;
+}
+
+/* LIGNES */
+
+tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+/* Hover */
+
+tbody tr:hover {
+  background-color: #fff1f5;
+}
+
+/* Une ligne sur deux */
+
+tbody tr:nth-child(even) {
+  background-color: #fcfcfc;
+}
+
+/* Retire la dernière bordure */
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  table {
+    font-size: 0.9em;
+  }
+
+  th,
+  td {
+    padding: 10px 6px;
+  }
+}
+
+/*session styles */
+label.session{
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 6px;
+
+  font-weight: 600;
+  font-size: 1em;
+
+  color: #333;
+}
+
+.session input[type="text"] {
+  width: 100%;
+
+  padding: 10px 12px;
+
+  border: 1px solid #f2f2f2;
+  border-radius: 6px;
+
+  font-size: 1em;
+
+  outline: none;
+
+  transition: all 0.2s ease;
+}
+
+.session input[type="text"]:focus {
+  border-color: #f1356d;
+  box-shadow: 0 0 0 2px rgba(241, 53, 109, 0.15);
+}
