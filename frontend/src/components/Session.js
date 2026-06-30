@@ -50,7 +50,7 @@ const Session = () => {
                 value={work}
                 onChange={(e) => setWorkTime(Number(e.target.value))}
             />
-            <label> Minutes de travail</label>
+            <label> Minutes of work</label>
 
             <br />
 
@@ -60,7 +60,7 @@ const Session = () => {
                 value={rest}
                 onChange={(e) => setRestTime(Number(e.target.value))}
             />
-            <label> Minutes de repos</label>
+            <label> Minutes of rest</label>
 
             <br />
 
